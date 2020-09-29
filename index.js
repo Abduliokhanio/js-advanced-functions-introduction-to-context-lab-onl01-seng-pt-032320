@@ -89,4 +89,4 @@ function findEmployeeByFirstName(srcArray, first_Name){
 
         let employees = [sRecord, rRecord]
 
-        calculatePayroll(employees) 
+        calculatePayroll(employees)
