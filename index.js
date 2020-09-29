@@ -17,6 +17,7 @@ function createEmployeeRecords(arys){
 
 function createDSObj(getType, dateStamp) {
     return {type: getType, date: dateStamp.slice(0,10), hour: parseInt(dateStamp.slice(-4))}
+    debugger;
 }
 
 function createTimeInEvent(obj, dateStamp){
